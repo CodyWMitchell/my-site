@@ -7,14 +7,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitle: `Minimal Blog`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    siteTitle: `Cody Mitchell`,
+    siteTitleAlt: `Cody Mitchell - My Work`,
+    siteHeadline: `Software Developer, 3D Artist, and Graphic Designer for Hire`,
+    siteUrl: `https://codymitchell.dev`,
+    siteDescription: `The personal work site for the full-stack developer Cody Mitchell.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `Cody Mitchell`,
   },
   plugins: [
     {
@@ -33,13 +33,17 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `GitHub`,
+            url: `https://www.github.com/CodyWMitchell`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/cody-mitchell-55a72716b/`,
           },
+          {
+            name: `My Resume`,
+            url: `https://www.codymitchell.dev/resume.pdf`,
+          }
         ],
       },
     },
