@@ -1,0 +1,38 @@
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.socialInfo h2 {
+    text-decoration: underline;
+    margin: -0.2rem 0 0 0;
+    padding-top: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card {
+    padding: 2rem;
+    text-align: center;
+    max-width: 600px;
+}
+
+.headerImage {
+    margin-bottom: -3rem;
+    z-index: 100;
+    width: 200px;
+}
+
+.css-1q2t09t-Header, .css-17hjhtt-Homepage {
+    margin-bottom: 2rem !important;
+}
+
+p {
+    font-size: 1.1rem !important;
+}
