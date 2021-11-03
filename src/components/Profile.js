@@ -46,17 +46,17 @@ const LinkedInIcon = (props) => {
 
 const socialInfo = {
     "GitHub": {
-        link: 'https://www.github.com',
+        link: 'https://github.com/CodyWMitchell',
         description: "Check out some of my code.",
         icon: <GitHubIcon />
     },
     "CodePen":{
-        link: 'https://www.codepen.io',
+        link: 'https://codepen.io/CWMitchell',
         description: "Look at my code snippits, and even use them in your own projects.",
         icon: <CodePenIcon />
     },
     "LinkedIn": {
-        link: 'https://www.linkedin.com',
+        link: 'https://www.linkedin.com/in/cody-mitchell-55a72716b/',
         description: "View my experience and reach out!",
         icon: <LinkedInIcon />
     }
