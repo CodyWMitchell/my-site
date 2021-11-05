@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { jsx, Link } from "theme-ui"
+import { Link } from "theme-ui"
 import "./Profile.css"
 
 const GitHubIcon = (props) => {
@@ -83,9 +83,9 @@ const Profile = () => {
                 <hr/>
                 <div>
                     <div className="socialInfo">
-                        {Object.keys(socialInfo).map((social) => {
+                        {Object.keys(socialInfo).map((social, index) => {
                             return (
-                                <Link href={socialInfo[social].link} className="iconLink" onMouseOver={()=>{setCurrentSocial(social)}} onMouseLeave={()=>{setCurrentSocial(null)}}>
+                                <Link key={index} href={socialInfo[social].link} className="iconLink" onMouseOver={()=>{setCurrentSocial(social)}} onMouseLeave={()=>{setCurrentSocial(null)}}>
                                     {socialInfo[social].icon}
                                 </Link>
                             )
