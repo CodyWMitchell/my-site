@@ -31,7 +31,7 @@ h1 {
 }
 
 .card {
-    @apply text-center max-w-screen-sm;
+    @apply text-center w-full max-w-lg;
 }
 
 .headerImage {
