@@ -17,6 +17,7 @@ module.exports = {
     author: `Cody Mitchell`,
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options

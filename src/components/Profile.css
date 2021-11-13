@@ -1,32 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 h1, h2, h3, h4, h5 {
-    margin: 0;
-    padding-top: 1rem;
+    @apply m-0 pt-1;
+}
+
+h1 {
+    @apply font-semibold text-3xl mb-2; 
+}
+
+.socialInfo {
+    @apply flex flex-col items-center justify-center;
 }
 
 .socialInfo h2 {
-    text-decoration: underline;
-    margin: -0.2rem 0 0 0;
-    padding-top: 0;
+    @apply underline p-0 m-0 mt-2 flex text-2xl text-center gap-2;
+}
+
+.socialIcons {
+    @apply flex flex-row items-center justify-center mt-2;
+}
+
+.socialIcons .iconLink svg {
+    @apply w-14 h-14 mx-2 transition duration-200 ease-linear text-purple-600 hover:text-pink-600 transform hover:scale-110;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
+    @apply flex content-center items-center flex-col h-full;
 }
 
 .card {
-    padding: 2rem;
-    text-align: center;
-    max-width: 600px;
+    @apply p-2 text-center;
 }
 
 .headerImage {
-    margin-bottom: -3rem;
-    z-index: 100;
-    width: 200px;
+    @apply mb-2 z-10 w-52 ;
 }
 
 .css-1q2t09t-Header, .css-17hjhtt-Homepage {
@@ -35,4 +44,8 @@ h1, h2, h3, h4, h5 {
 
 p {
     font-size: 1.1rem !important;
+}
+
+hr {
+    @apply m-2;
 }
