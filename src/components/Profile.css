@@ -23,7 +23,7 @@ h1 {
 }
 
 .socialIcons .iconLink svg {
-    @apply w-14 h-14 mx-2 transition duration-200 ease-linear text-purple-600 hover:text-pink-600 transform hover:scale-110;
+    @apply w-14 h-14 mx-2 transition duration-200 ease-linear text-purple-600 hover:text-pink-400 transform hover:scale-110;
 }
 
 .container {
@@ -31,11 +31,11 @@ h1 {
 }
 
 .card {
-    @apply p-2 text-center;
+    @apply text-center max-w-screen-sm;
 }
 
 .headerImage {
-    @apply mb-2 z-10 w-52 ;
+    @apply z-10 w-52 ;
 }
 
 .css-1q2t09t-Header, .css-17hjhtt-Homepage {

@@ -86,7 +86,7 @@ const Profile = () => {
                 </h1>
                 <hr />
                 <p>
-                    I have a passion for developing beautiful, streamlined front-ends with secure, performant back-ends using modern technologies.
+                    I have a passion for developing beautiful, streamlined front-ends <br /> with secure, performant back-ends using modern technologies.
                 </p>
                 <hr/>
                 <div>
